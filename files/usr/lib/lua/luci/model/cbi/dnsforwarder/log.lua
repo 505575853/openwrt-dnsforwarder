@@ -18,8 +18,8 @@ s.anonymous=true
 
 
 gfwlist = s:option(TextValue, "gfwlist", translate("日志"), nil)
-gfwlist.description = translate("日志文件默认位置:" .. log)
-gfwlist.rows = 13
+gfwlist.description = translate("-------------------------------------------------------------日志文件默认位置:" .. log)
+gfwlist.rows = 30
 gfwlist.wrap = "off"
 gfwlist.cfgvalue = function(self, section)
 	return fs.readfile(log) or ""
