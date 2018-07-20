@@ -1,4 +1,5 @@
 
 config arguments
-	option enabled '0'
+	option enabled '1'
+	option redir '1'
 
