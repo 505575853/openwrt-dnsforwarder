@@ -1,6 +1,6 @@
 #!/bin/sh /etc/rc.common
 
-START=97
+START=99
 
 DNSFORWARDER_CONF=/etc/dnsforwarder/dnsforwarder.conf
 PID_PATH=/var/run/dnsforwarder/
