@@ -10,7 +10,7 @@ function sync_value_to_file(value, file)
 	end
 end
 
-m = Map("dnsforwarder", translate("Domain Lists Settings"),translate("‘GFWList黑名单’可以观察当前域名黑名单，更新后会发生变化;<br>‘用户自定义黑名单’不会被GFWList更新所覆盖，可以手动添加一些强制走代理的网站。<br>注意：点击更新按钮后需要等浏览器自动刷新后才算完成，请勿重复点击<br>使用教程请<a href='http://www.right.com.cn/forum/thread-198649-1-1.html'>点击这里</a>"))
+m = Map("dnsforwarder", translate("Domain Lists Settings"),translate("‘GFWList黑名单’可以观察当前域名黑名单，更新后会发生变化;<br>‘用户自定义黑名单’不会被GFWList更新所覆盖，可以手动添加一些强制走代理的网站。<br>注意：点击更新按钮后需要等浏览器自动刷新后才算完成，请勿重复点击"))
 s=m:section(TypedSection,"arguments","")
 s.addremove=false
 s.anonymous=true

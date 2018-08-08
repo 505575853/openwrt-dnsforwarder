@@ -18,7 +18,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/dnsforwarder
   SECTION:=net
   CATEGORY:=Network
-  TITLE:=A simple DNS forwarder
+  TITLE:=A simple DNS forwarder6
   URL:=https://github.com/holmium/dnsforwarder
   DEPENDS:=+wget +ipset +dnsmasq-full +libpthread +coreutils-base64
 endef
